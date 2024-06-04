@@ -1,27 +1,19 @@
-# NgSpotifyCloneFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+# Spotify Clone Front
 
-## Development server
+Projet réaliser avec le tuto youtube de : Cyril from CodeCake
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://youtu.be/FEQ9C9PfLLI?si=T5cdVMkA6FKcAQEx
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tech Stack
 
-## Build
+**Client:** Angular, MaterialAngular, Bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Server:** MySql
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Screenshots
 
-## Running end-to-end tests
+![App Screenshot](https://github.com/JulienNedellec/ng-spotify-clone-front/blob/master/Capture%20d%E2%80%99%C3%A9cran%20du%202024-06-04%2022-58-33.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
