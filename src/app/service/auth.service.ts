@@ -5,7 +5,7 @@ import { State } from './model/state.model';
 import { environment } from '../../environments/environment.development';
 import { Location } from '@angular/common';
 
-/* export type AuthPopupState = "OPEN" | "CLOSE" */
+export type AuthPopupState = "OPEN" | "CLOSE"
 
 @Injectable({
   providedIn: 'root'
@@ -23,8 +23,8 @@ export class AuthService {
   fetchUser = computed(() => this.fetchUser$());
 
 
- /*  private triggerAuthPopup$: WritableSignal<AuthPopupState> = signal("CLOSE");
-  authPopupStateChange = computed(() => this.triggerAuthPopup$()); */
+ private triggerAuthPopup$: WritableSignal<AuthPopupState> = signal("CLOSE");
+  authPopupStateChange = computed(() => this.triggerAuthPopup$());
 
   fetch(): void {
     this.http.get<User>(`${environment.API_URL}/api/get-authenticated-user`)
@@ -62,9 +62,9 @@ export class AuthService {
       })
   }
 
-  /* openOrCloseAuthPopup(state: AuthPopupState) {
+  openOrCloseAuthPopup(state: AuthPopupState) {
     this.triggerAuthPopup$.set(state);
-  } */
+  }
 
   constructor() {
   }
